@@ -13,3 +13,4 @@ Button C: Toggle UART stop -scroll .
 
 ![IMG_0592](https://github.com/user-attachments/assets/758c36ba-9736-40a5-90d2-89802550ed93)
 ![IMG_0590](https://github.com/user-attachments/assets/24452377-d4f3-43f2-9b9f-8dbe55aad7b7)
+![IMG_0595](https://github.com/user-attachments/assets/d99a9809-b990-46fd-8623-8dc48bf1681f)
