@@ -1,11 +1,11 @@
 
 UART BUDDY KWIND   M5Stack core Device RX pin16
 
-Button A: Change baud rate (as before).
+Button A: Change baud rate .
 
-Button B: Activate scrollback for the last 5 seconds of UART data and scroll through the data (press to scroll back).
+Button B: Activate scrollback for the last x seconds of UART data and scroll through the data (press to scroll back).
 
-Button C: Toggle display on/off.
+Button C: Toggle UART stop -scroll .
 
 
 
