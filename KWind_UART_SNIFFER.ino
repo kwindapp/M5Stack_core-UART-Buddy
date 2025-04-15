@@ -2,9 +2,9 @@
 
 // === SETTINGS ===
 #define TEXT_SIZE        1
-#define REFRESH_INTERVAL 100
-#define THEME_ID         3   // Choose theme: 1–5
-#define BUFFER_SECONDS   5   // Buffer data for the last N seconds (can change this value)
+#define REFRESH_INTERVAL 800
+#define THEME_ID         1   // Choose theme: 1–5
+#define BUFFER_SECONDS   8   // Buffer data for the last N seconds (can change this value)
 
 // === THEMES ===
 uint16_t COLOR_BG, COLOR_TEXT, COLOR_HEADER, COLOR_BORDER;
@@ -124,12 +124,16 @@ void setup() {
 
   // Show "UART Buddy Ready"
   M5.Lcd.setTextColor(RED);
-  M5.Lcd.setCursor(80, 100);
+  M5.Lcd.setCursor(80, 50);
   M5.Lcd.setTextSize(2);
   M5.Lcd.print("KWIND UART");
-  delay(5000);
-  M5.Lcd.fillScreen(COLOR_BG);
-
+  M5.Lcd.setCursor(0, 100);
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.print("Power Off:");
+  M5.Lcd.setCursor(0, 140);
+  M5.Lcd.setTextColor(GREENYELLOW);
+  M5.Lcd.print("double-click red button");
+  delay(4000);
   startUART();
   drawScreen();
   Serial.println("UART SNIFFER READY");
